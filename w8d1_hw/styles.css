@@ -1,0 +1,308 @@
+html, head, h2, ul, li, input, select, title, link, body, nav, span, a, section, button, p, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: transparent;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links, a {
+  display: flex;
+  margin: 10px;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 15px;
+  color: gray;
+}
+
+.summary {
+  display: flex;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 13px;
+  font-style: italic;
+  color: gray;
+  border: 1px solid gray;
+}
+
+.profile:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.sign_in:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.sign_out:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  letter-spacing: 2px;
+}
+
+.logo {
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+  flex: 1;
+}
+
+.logo_pic {
+  display: flex;
+  height: 5%;
+  width: 5%;
+  margin: 10px;
+}
+
+.name {
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: 2px;
+}
+
+.it {
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: orange;
+  background-color: #228B22;
+  letter-spacing: 4px;
+}
+
+.blurb {
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 2px;
+  width: 45%;
+  margin: 10px;
+  vertical-align: bottom;
+}
+
+
+.splash_pic {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.info {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-65%);
+  text-align: center;
+  width: 45%;
+  font-family: sans-serif;
+  font: Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-80%);
+  background-color: #228B22;
+  color: white;
+  padding: 15px;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 45%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #7CFC00;
+  color: black;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #228B22;
+  justify-content: space-around;
+}
+
+footer a {
+  display: flex;
+  align-content: space-between;
+  color: white;
+}
+
+.copy {
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 10px;
+  margin: 10px 0 0 0;
+}
+
+.about:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.career:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.contact:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.home:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.forms {
+  display: flex;;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  width: 100%;
+}
+
+.submit {
+  padding: 7px;
+  background-color: #228B22;
+  color: white;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: #7CFC00;
+  color: black;
+}
+
+.input_field {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+.form_titles {
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+
+.list_section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.list {
+  padding: 20px;
+  border: 2px solid #228B22;
+  margin: 10px;
+  border-radius: 30px;
+  flex: 1;
+}
+
+h3 {
+  color: #228B22;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+ul {
+  padding: 10px;
+}
+
+li {
+  margin: 10px 0 10px 0;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 15px;
+}
+
+
+.quotes {
+  font-style: italic;
+}
+
+.author {
+  color: #228B22;
+  font-family: sans-serif;
+  font: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 5px 0 20px 0;
+}
